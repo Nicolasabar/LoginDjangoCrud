@@ -1,0 +1,9 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+
+{% if request.user.is_authenticated %}
+    <h4>{{ request.user.username | upper }} :D</h4>                
+{% endif %}
+
+{% endblock %}

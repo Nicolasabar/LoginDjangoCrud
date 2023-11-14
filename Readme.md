@@ -1,0 +1,1 @@
+Proyecto creado en Django para la autentificacion de usuarios mas diferentes funciones de crud.
